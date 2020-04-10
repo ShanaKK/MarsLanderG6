@@ -66,7 +66,7 @@ public class ftat {
 		repair1.isDisplayed();
 	}
 
-	@Test(priority = 2)
+	@Test(enabled=false)
 	public void createrepairticket() {
 		driver.findElement(By.className("btn")).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -84,7 +84,7 @@ public class ftat {
 		driver.findElement(By.xpath("//h2[text()='Repair Ticket Page']")).isDisplayed();
 	}
 
-	@Test(priority = 3)
+	@Test(enabled=false)
 	public void pageredirection() {
 		driver.findElement(By.partialLinkText("Home")).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
