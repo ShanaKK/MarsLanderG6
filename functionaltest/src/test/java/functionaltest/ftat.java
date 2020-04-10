@@ -22,7 +22,7 @@ public class ftat {
 	//public String URL1 = "http://localhost:8080/AVNCommunication-1.0/avncreatepage.jsp";
 	 
 	 
-	@Test(priority = 0)
+	@Test(enabled=false)
 	public void logintest() {
 		driver = new HtmlUnitDriver();
 		//driver= new FirefoxDriver();
@@ -97,7 +97,7 @@ public class ftat {
 		driver.findElement(By.xpath("//h2[text()='Repair Ticket Page']")).isDisplayed();
 	}
 
-	@Test(priority = 4)
+	@Test(enabled=false)
 	public void logouttest() {
 		driver.findElement(By.partialLinkText("Logout")).click();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
