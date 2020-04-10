@@ -42,8 +42,7 @@ public class ftat {
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 
-	@Ignore	
-	@Test(priority = 1)
+	@Test(enabled=false )
 	public void viewrepairticket() throws Exception {
 		WebElement welcome = wait.until(ExpectedConditions
 				.visibilityOfElementLocated(By.xpath("//h2[text()='WELCOME TO YOUR ACCOUNT OVERVIEW']")));
