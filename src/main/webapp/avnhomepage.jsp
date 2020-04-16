@@ -53,9 +53,9 @@ color:white;
 <a href="" style="color: white;font-size: 20px;position: absolute;left:54px;">Configure</a><br>
 </section>
 <section class="wlp-login-message-content" style="left: 640px;top: 210px;">
-<b><p style="text-align: center;font-size: 25px;">OfferAPR3rd</p></b>
-<a href="avncreatepage.jsp" style="color: white;font-size: 20px;position: absolute;left:71px;">BirthdayAPR3rd</a><br>
-<a href="${pageContext.request.contextPath}/viewticket.do" style="color: white;font-size: 20px;position: absolute;left:75px;">SpecialOFFER-APR3rd</a><br>
+<b><p style="text-align: center;font-size: 25px;">OfferAPR16d</p></b>
+<a href="avncreatepage.jsp" style="color: white;font-size: 20px;position: absolute;left:71px;">BirthdayAPR16d</a><br>
+<a href="${pageContext.request.contextPath}/viewticket.do" style="color: white;font-size: 20px;position: absolute;left:75px;">SpecialOFFER-APR16</a><br>
 </section>
 <section class="wlp-login-message-content" style="left: 900px;top: 210px;">
 <b><p style="text-align: center;font-size: 25px;">PAYMENT</p></b>
